@@ -66,7 +66,7 @@
       <addon id="plugin.video.freelivetv.tva4k19" name="Free Live TV - 4K19" provider-name="mhancoc7" version="1.0">
         <requires>
             <!--<import addon="xbmc.python" version="3.0.0" />-->
-            <import addon="script.module.m7lib4k19" version="0.9.7" />
+            <!--<import addon="script.module.m7lib4k19" version="0.9.7" />-->
         </requires>
         <extension library="default.py" point="xbmc.python.pluginsource">
             <provides>video</provides>

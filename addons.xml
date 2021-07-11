@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  <addons>     
-      <addon id="plugin.video.lokuxxx" version="1.2.61" name="LOKU REPO" provider-name="LOURENS.R.L">
+      <addon id="plugin.video.lokuxxx" version="1.2.7" name="LOKU REPO" provider-name="LOURENS.R.L">
       <requires>
        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
        <import addon="script.module.resolveurl" version="5.1.00"/>
@@ -30,5 +30,70 @@
           <news>ANDA BAHAGIA KAMI PUN SENANG, VISI MISI FOYA FOYA ; Don't Play Play Bosqueh</news>
       </extension>
       </addon>
+
+
+      <addon id="plugin.video.lokuadult" version="0.1.0" name="LOKU ADULT" provider-name="LOURENS.R.L">
+      <requires>
+       <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+       <import addon="script.module.resolveurl" version="5.1.00"/>
+      </requires>
+      <extension point="xbmc.python.pluginsource" library="main.py">
+         <provides>video</provides>
+      </extension>
+
+      <extension point="xbmc.addon.metadata">
+          <summary lang="en">Live AdultTV Action</summary>
+          <description lang="en_GB">Live AdultTV Action , FreeTV Development Open Source</description>
+          <disclaimer lang="en_GB">VISI MISI FOYA FOYA ; Don't Play Play Bosqueh</disclaimer>
+          <platform>all</platform>
+          <language></language>
+          <license>Apache2</license>
+          <forum></forum>
+          <website>https://lourensloukassy.github.io/iptv/</website>
+          <source>https://github.com/lourensloukassy/iptv/tree/main/repo/plugin.video.lokuxxx</source>
+          <email>lourens.loukassy@outlook.com</email>
+          <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources\screenshot-01.jpg</screenshot>
+            <screenshot>resources\screenshot-02.jpg</screenshot>
+            <screenshot>resources\screenshot-03.jpg</screenshot>    
+          </assets>
+          <news>ANDA BAHAGIA KAMI PUN SENANG, VISI MISI FOYA FOYA ; Don't Play Play Bosqueh</news>
+      </extension>
+      </addon>
+
+      <addon id="plugin.video.freelivetv.tva4k19" name="Free Live TV - 4K19" provider-name="mhancoc7" version="1.0">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.m7lib4k19" version="0.1.0" />
+        </requires>
+        <extension library="default.py" point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Free Live TV</summary>
+            <description>Please support the continued development of Free Live TV by becoming a Patron [COLOR lightskyblue]https://patreon.m7kodi.dev/[/COLOR]</description>
+            <platform>all</platform>
+            <website>https://m7kodi.dev</website>
+        </extension>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+      </addon>
+
+    <addon id="script.module.m7lib4k19" name="m7lib - 4K19" provider-name="mhancoc7" version="0.9.7">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="plugin.video.youtube" version="5.5.1" />
+        </requires>
+        <extension library="lib" point="xbmc.python.module" />
+        <extension point="xbmc.addon.metadata">
+            <description lan="en">Please support the continued development of m7lib by becoming a Patron [COLOR lightskyblue]https://patreon.m7kodi.dev/[/COLOR]</description>
+            <summary lang="en">mhancoc7 Common Functions</summary>
+            <platform>all</platform>
+            <website>https://m7kodi.dev</website>
+        </extension>
+    </addon>
 
 </addons>      

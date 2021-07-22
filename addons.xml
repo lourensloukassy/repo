@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  <addons>     
-      <addon id="plugin.video.lokuxxx" version="1.2.9" name="LOKU REPO" provider-name="LOURENS.R.L">
+      <addon id="plugin.video.lokuxxx" version="1.2.91" name="LOKU REPO" provider-name="LOURENS.R.L">
       <requires>
        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
        <import addon="script.module.resolveurl" version="5.1.35"/>

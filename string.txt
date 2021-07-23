@@ -1,4 +1,5 @@
-'SPORTS CHANNEL': [{
+{
+    'SPORTS CHANNEL': [{
         'name':
         '<!--BEIN SPORTS 1,2,3 MAX MENGGUNAKAN CLOUDFARE 1.1.1.1 VPN-->',
         'thumb': '',
@@ -1021,3 +1022,4 @@
         'video': 'http://85.217.223.138:80/fn3huGQ/1AsGbU/14731',
         'genre': 'MOVIES & SPORTS CHANNEL HD'
     }]
+}

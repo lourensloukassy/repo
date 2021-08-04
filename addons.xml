@@ -64,7 +64,7 @@
       </addon>
 
     <addon id="plugin.video.lokuindo"
-      version="1.2.33"
+      version="1.2.34"
       name="LOKU INDONESIAN ADULT"
       provider-name="LOURENS.R.L">
           <requires>

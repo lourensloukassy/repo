@@ -64,12 +64,12 @@
       </addon>
 
     <addon id="plugin.video.lokuindo"
-      version="1.2.36"
+      version="1.2.37"
       name="LOKU INDONESIAN ADULT"
       provider-name="LOURENS.R.L">
           <requires>
           <import addon="xbmc.python" version="3.0.0"/>
-          <import addon="script.module.resolveurl" version="5.1.37"/>
+          <import addon="script.module.resolveurl" version="5.1.38"/>
           </requires>
           <extension point="xbmc.python.pluginsource" library="hls.py">
           <provides>video</provides>
@@ -84,7 +84,7 @@
               <license>Apache2</license>
               <forum></forum>
               <website>https://lourensloukassy.github.io/iptv/</website>
-              <source>https://github.com/lourensloukassy/iptv/tree/main/repo/plugin.video.lokuxxx</source>
+              <source>https://github.com/lourensloukassy/repo/tree/main/zips/plugin.video.lokuindo</source>
               <email>lourens.loukassy@outlook.com</email>
               <assets>
                 <icon>icon.png</icon>

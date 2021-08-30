@@ -64,12 +64,12 @@
       </addon>
 
     <addon id="plugin.video.lokuindo"
-      version="1.2.41"
+      version="1.2.42"
       name="LOKU INDONESIAN ADULT"
       provider-name="LOURENS.R.L">
           <requires>
           <import addon="xbmc.python" version="3.0.0"/>
-          <import addon="script.module.resolveurl" version="5.1.38"/>
+          <import addon="script.module.resolveurl" version="5.1.39"/>
           </requires>
           <extension point="xbmc.python.pluginsource" library="hls.py">
           <provides>video</provides>

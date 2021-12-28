@@ -232,38 +232,6 @@
             </extension>
         </addon>
 
-
-        <addon id="plugin.video.cinehouse" name="Cinehouse" version="0.19.0.4" provider-name="Majide">
-          <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.requests" version="2.19.0"/>
-            <import addon="script.module.youtube.dl" version="21.303.0+matrix.1"/>
-            <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-          </requires>
-          <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>video</provides>
-          </extension>
-          <extension point="xbmc.addon.metadata">
-            <summary lang="en">Cinehouse</summary>
-            <description lang="en">Cinehouse is a brand new way to enjoy the best of television and movies for free. Watch anywhere, anytime; always available on your computer, phone and tablets. Explore the best content from around the world without leaving home. Find your niche; explore everything from reality TV to unique movies. Stream it all at no cost.</description>
-            <disclaimer lang="en">This is not an official addon! If the official APP is available for your platform, use it instead of this addon. All rights on content are reserved by Digital Media Rights.</disclaimer>
-            <language>en</language>
-            <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-            <forum>https://forum.kodi.tv/showthread.php?tid=363559</forum>
-            <website>https://www.cinehousetv.com</website>
-            <news>NEW: Addon Setting > Sort categories in the main menu in alphabetical order.</news>
-          <assets>
-            <icon>resources/icon.png</icon>
-              <fanart>resources/fanart.jpg</fanart>
-              <screenshot>resources/screenshot-01.jpg</screenshot>
-              <screenshot>resources/screenshot-02.jpg</screenshot>
-              <screenshot>resources/screenshot-03.jpg</screenshot>
-          </assets>
-          </extension>
-        </addon>
-
-
         <addon id="plugin.video.ondramanice" name="On Dramanice" version="0.19.0.5" provider-name="Majide">
           <requires>
             <import addon="xbmc.python" version="3.0.0"/>
@@ -294,36 +262,5 @@
           </extension>
         </addon>
 
-        <addon id="plugin.video.retrocrush" name="Retro Crush" version="0.19.0.4" provider-name="Majide">
-          <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.requests" version="2.19.0"/>
-            <import addon="script.module.youtube.dl" version="21.303.0+matrix.1"/>
-            <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-          </requires>
-          <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>video</provides>
-          </extension>
-          <extension point="xbmc.addon.metadata">
-            <summary lang="en">Retro Crush</summary>
-            <description lang="en">Watch classic anime that matters, including exclusive first-time English releases. Revisit your favorite shows and discover forgotten gems. There is something for all anime lovers. Free to stream. No subscription required. Start binging on all the shows you missed!</description>
-            <disclaimer lang="en">This is not an official addon! If the official APP is available for your platform, use it instead of this addon. All rights on content are reserved by Digital Media Rights.</disclaimer>
-            <language>en</language>
-            <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-            <forum>https://forum.kodi.tv/showthread.php?tid=363598</forum>
-            <website>https://www.retrocrush.tv</website>
-            <news>NEW: Addon Setting > Sort categories in the main menu in alphabetical order.</news>
-          <assets>
-            <icon>resources/icon.png</icon>
-              <fanart>resources/fanart.jpg</fanart>
-              <screenshot>resources/screenshot-01.jpg</screenshot>
-              <screenshot>resources/screenshot-02.jpg</screenshot>
-              <screenshot>resources/screenshot-03.jpg</screenshot>
-          </assets>
-          </extension>
-        </addon>
-
-        
 
 </addons>      

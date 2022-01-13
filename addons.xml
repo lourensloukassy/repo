@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  <addons>     
-      <addon id="plugin.video.lokurepo" version="1.3.40" name="LOKU REPO" provider-name="LOURENS.R.L">
+      <addon id="plugin.video.lokurepo" version="1.3.41" name="LOKU REPO" provider-name="LOURENS.R.L">
             <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <!--<import addon="script.module.resolveurl" version="5.1.56"/>-->
@@ -64,12 +64,12 @@
       </addon>
 
     <addon id="plugin.video.lokuindo"
-      version="1.2.55b"
+      version="1.2.56"
       name="LOKU INDONESIAN ADULT"
       provider-name="LOURENS.R.L">
           <requires>
           <import addon="xbmc.python" version="3.0.0"/>
-          <import addon="script.module.resolveurl" version="5.1.54"/>
+          <import addon="script.module.resolveurl" version="5.1.56"/>
           </requires>
           <extension point="xbmc.python.pluginsource" library="hls.py">
           <provides>video</provides>
@@ -232,10 +232,10 @@
             </extension>
         </addon>
 
-        <addon id="plugin.video.ondramanice" name="On Dramanice" version="0.19.0.5" provider-name="Majide">
+        <addon id="plugin.video.ondramanice" name="On Dramanice" version="0.19.0.6" provider-name="Majide, LOURENS.R.L">
           <requires>
             <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.resolveurl" version="5.1.54"/>
+            <import addon="script.module.resolveurl" version="5.1.56"/>
             <import addon="script.module.requests" version="2.19.0"/>
           </requires>
           <extension point="xbmc.python.pluginsource" library="addon.py">
